@@ -4,7 +4,7 @@
      
      public function __construct(){
          $this->conn= new PDO("mysql:dbname=dbphp7;host=localhost","root","");
-         echo "Conexao feita com sucesso";
+         
      }
      private function setParams($statment,$parameters=array()){
          foreach($parameters as $key => $value){
